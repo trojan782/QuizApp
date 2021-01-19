@@ -4,6 +4,14 @@
     <b-container class="bv-example-row">
       <b-row>
         <b-col sm="6" offset = "3">
+
+          <!--  for this place see the @next that will trigger the next function in your methods
+          then u can stop parsing props -->
+      <!--     <QuestionBox 
+          v-if="questions.length"
+          :currentQuestion = "questions[index]"
+          @nextQuestion = "next"
+          /> -->
           <QuestionBox 
           v-if="questions.length"
           :currentQuestion = "questions[index]"
